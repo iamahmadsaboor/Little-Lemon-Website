@@ -40,11 +40,11 @@ const OurMenu = () => {
           Menu
         </button>
       </div>
-      <div className="flex flex-wrap justify-around gap-10 md:flex-nowrap md:gap-0">
+      <div className="flex flex-wrap justify-around gap-10 md:pb-8 md:flex-nowrap md:gap-0  border-[black]">
         {menuItems.map(({ id, src, title, price, description }) => (
           <div
             key={id}
-            className="box-border w-[90vw] md:w-[22%] h-[70vh] md:h-[40%] overflow-hidden ransition duration-500 "
+            className="box-border w-[90vw] md:w-[22%] h-[70vh] md:h-[40%] overflow-hidden ransition duration-500  border-black"
           >
             <div>
               <img src={src} className=" h-[33vh] w-[100%] " alt="" />
