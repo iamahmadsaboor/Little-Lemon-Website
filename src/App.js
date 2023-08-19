@@ -1,5 +1,5 @@
 import "./App.css";
-import Navbar from "./Components/navbar";
+import Navbar from "./Components/Navbar";
 import HeroSection from "./Components/HeroSection";
 import OurMenu from "./Components/OurMenu";
 import Reservation from "./Components/Reservation";

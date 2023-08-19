@@ -11,7 +11,7 @@ const OurMenu = () => {
       title: "Greek Salad",
       price: "$ 12.99",
       description:
-        "The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.",
+        "The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished  crunchy .",
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ const OurMenu = () => {
       title: "Bruschetta",
       price: "$ 5.99",
       description:
-        "Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil..",
+        "Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.",
     },
     {
       id: 3,
@@ -44,10 +44,10 @@ const OurMenu = () => {
         {menuItems.map(({ id, src, title, price, description }) => (
           <div
             key={id}
-            className="box-border w-[90vw] md:w-[22%] h-[70vh] md:h-[40%] overflow-hidden"
+            className="box-border w-[90vw] md:w-[22%] h-[70vh] md:h-[40%] overflow-hidden ransition duration-500 "
           >
             <div>
-              <img src={src} className=" h-[33vh] w-[100%]" alt="" />
+              <img src={src} className=" h-[33vh] w-[100%] " alt="" />
             </div>
             <div className="flex justify-between px-4 py-4">
               <h4>{title}</h4>

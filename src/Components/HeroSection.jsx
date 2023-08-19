@@ -18,9 +18,9 @@ const HeroSection = () => {
           Reservation
         </Link>
       </div>
-      <div className=" w-[100%] md:w-[48%] flex justify-center mt-[3em] pb-10  md:pb-0">
+      <div className=" w-[100%] md:w-[48%] flex justify-center mt-[1em] md:mt-[6em] pb-10  md:pb-0">
         <img
-          className="h-[66vh] w-[90vw] md:w-[24vw] rounded-md "
+          className="h-[66vh] w-[90vw] md:w-[27vw] rounded-md "
           src={heroImg}
           alt=""
         />

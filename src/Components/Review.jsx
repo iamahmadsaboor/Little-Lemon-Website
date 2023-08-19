@@ -41,7 +41,7 @@ const Review = () => {
         {Review.map(({ id, src, Name, Description }) => (
           <div
             key={id}
-            className="bg-white w-[95%] md:w-[14%] h:[65vh] md:h-[43vh]"
+            className="bg-white w-[95%] md:w-[14%] h:[65vh] md:h-[53vh]"
           >
             <div className="flex items-center justify-center pt-5 ">
               <img src={src} className="w-[8em] h-[8em] rounded-full 	" alt="" />

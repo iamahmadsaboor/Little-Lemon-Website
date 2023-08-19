@@ -42,7 +42,7 @@ const Navbar = () => {
           {navLinks.map(({ id, tab }) => (
             <li
               key={id}
-              className="text-blue-500 list-none cursor-pointer hover:text-blue-800"
+              className="font-mono text-xl text-blue-500 list-none cursor-pointer hover:text-blue-800"
             >
               {tab === "Reservation" ? (
                 <Link to="Reservation" smooth={true} duration={500}>
