@@ -3,8 +3,8 @@ import heroImg from "../Assets/hero-img.jpg";
 import { Link } from "react-scroll";
 const HeroSection = () => {
   return (
-    <div className="flex bg-green-800 h-[30em] mb-[6em] scroll-smooth" >
-      <div className="w-[48%] mx-[5em] my-[7em] ">
+    <div className="flex flex-wrap md:flex-nowrap bg-green-800 h-[45em] md:h-[30em] mb-[6em] scroll-smooth">
+      <div className="w-[100vw] md:w-[48%] p-6 md:mx-[5em] md:my-[7em] md:p-0 ">
         <h1 className="font-mono text-4xl text-yellow-500">Little Lemon</h1>
         <h2 className="pt-2 font-mono text-3xl text-white">Chicago</h2>
         <p className="py-5 text-xl font-thin text-white">
@@ -18,8 +18,12 @@ const HeroSection = () => {
           Reservation
         </Link>
       </div>
-      <div className="w-[48%] flex justify-center mt-[3em]">
-        <img className="h-[66vh] w-[24vw] " src={heroImg} alt="" />
+      <div className=" w-[100%] md:w-[48%] flex justify-center mt-[3em] pb-10  md:pb-0">
+        <img
+          className="h-[66vh] w-[90vw] md:w-[24vw] rounded-md "
+          src={heroImg}
+          alt=""
+        />
       </div>
     </div>
   );

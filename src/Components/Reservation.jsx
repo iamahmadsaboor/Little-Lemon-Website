@@ -4,15 +4,15 @@ const Reservation = () => {
   return (
     <div id="Reservation">
       <div>
-        <h1 className=" bg-green-800 h-[3em] mb-[1em] text-4xl text-white flex justify-center items-center ">
+        <h1 className=" bg-green-800 h-[3em] mb-[1em] text-4xl text-white flex justify-center items-center mt-8 ">
           Table Reservations
         </h1>
       </div>
-      <div>
+      <div className="flex justify-center">
         <form
           action="https://getform.io/f/731a3f52-388f-4e3c-8108-bf85b31d2f9c"
           method="POST"
-          className="font-mono ml-[39em]"
+          className="font-mono "
         >
           <div className="">
             <label htmlFor="date" className="block py-4 font-mono text-2xl">

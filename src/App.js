@@ -1,5 +1,5 @@
 import "./App.css";
-import NavBar from "./Components/NavBar";
+import Navbar from "./Components/navbar";
 import HeroSection from "./Components/HeroSection";
 import OurMenu from "./Components/OurMenu";
 import Reservation from "./Components/Reservation";
@@ -9,11 +9,11 @@ import Review from "./Components/Review";
 function App() {
   return (
     <div>
-      <NavBar />
+      <Navbar />
       <HeroSection />
       <OurMenu />
-      <Reservation />
       <Review />
+      <Reservation />
       <Footer />
     </div>
   );

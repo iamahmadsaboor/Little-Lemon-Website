@@ -32,15 +32,20 @@ const OurMenu = () => {
   ];
   return (
     <div id="Meals">
-      <div className="flex justify-between w-[90vw] px-[4em] py-[2em]">
-        <h1 className="px-8 text-3xl text-black "> This Weeks Special !!</h1>
+      <div className="flex justify-center md:justify-between w-[90vw] gap-6 md:px-[4em] py-[2em] flex-wrap md:flex-nowrap md:gap-0 ">
+        <h1 className="text-2xl text-black md:text-3xl md:px-8">
+          This Weeks Special !!
+        </h1>
         <button className="px-4 py-2 font-semibold text-white transition duration-300 ease-in-out bg-yellow-400 rounded-lg shadow-md hover:bg-black hover:text-white">
           Menu
         </button>
       </div>
-      <div className="flex justify-around">
+      <div className="flex flex-wrap justify-around gap-10 md:flex-nowrap md:gap-0">
         {menuItems.map(({ id, src, title, price, description }) => (
-          <div key={id} className="box-border w-[22%] h-[40%] overflow-hidden">
+          <div
+            key={id}
+            className="box-border w-[90vw] md:w-[22%] h-[70vh] md:h-[40%] overflow-hidden"
+          >
             <div>
               <img src={src} className=" h-[33vh] w-[100%]" alt="" />
             </div>
