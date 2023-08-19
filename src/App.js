@@ -4,6 +4,7 @@ import HeroSection from "./Components/HeroSection";
 import OurMenu from "./Components/OurMenu";
 import Reservation from "./Components/Reservation";
 import Footer from "./Components/Footer";
+import Review from "./Components/Review";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeroSection />
       <OurMenu />
       <Reservation />
+      <Review />
       <Footer />
     </div>
   );
