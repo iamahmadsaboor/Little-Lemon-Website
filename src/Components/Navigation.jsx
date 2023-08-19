@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { FaBars } from "react-icons/fa"; // Import the hamburger icon
 import mainlogo from "../Assets/main-logo.png";
 
-const Navbar = () => {
+const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
@@ -110,4 +110,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navigation;
